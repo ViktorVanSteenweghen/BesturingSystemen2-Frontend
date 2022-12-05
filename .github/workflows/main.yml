@@ -23,6 +23,9 @@ jobs:
       
       - name: Dependecies
         run: npm ci
+        
+      - name: update
+        run: npm update
       
       - name: Build
         run: npm run build
